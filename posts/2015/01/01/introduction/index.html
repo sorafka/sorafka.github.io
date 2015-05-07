@@ -30,11 +30,11 @@
 </head>
 
 
-  <body>
+  <body class="sidebar-overlay theme-base-0d">
 
     <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
@@ -111,7 +111,9 @@
       </div>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+	<!--
+	<label for="sidebar-checkbox" class="sidebar-toggle"></label>
+	-->
 
     <script>
       (function(document) {
@@ -119,6 +121,7 @@
         var sidebar = document.querySelector('#sidebar');
         var checkbox = document.querySelector('#sidebar-checkbox');
 
+		/*
         document.addEventListener('click', function(e) {
           var target = e.target;
 
@@ -128,6 +131,7 @@
 
           checkbox.checked = false;
         }, false);
+		*/
       })(document);
     </script>
   </body>
