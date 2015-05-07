@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>sorafka.github.io</title>
+ <link href="http://sorafka.github.io/atom.xml" rel="self"/>
+ <link href="http://sorafka.github.io/"/>
+ <updated>2015-05-07T10:43:23+09:00</updated>
+ <id>http://sorafka.github.io</id>
+ <author>
+   <name>sorafka</name>
+   <email>seefeeling@hotmail.co.jp</email>
+ </author>
+
+ 
+ <entry>
+   <title>Welcome</title>
+   <link href="http://sorafka.github.io/posts/2015/01/01/introduction/"/>
+   <updated>2015-01-01T09:00:00+09:00</updated>
+   <id>http://sorafka.github.io/posts/2015/01/01/introduction</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>
