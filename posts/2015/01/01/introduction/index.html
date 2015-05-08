@@ -34,7 +34,8 @@
 
     <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
+
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" >
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
@@ -124,6 +125,15 @@
         var toggle = document.querySelector('.sidebar-toggle');
         var sidebar = document.querySelector('#sidebar');
         var checkbox = document.querySelector('#sidebar-checkbox');
+        var navitems = document.querySelectorAll('.sidebar-nav-item');
+
+		/*
+		for (var i = 0; i < navitems.length; i++) {
+			var nav = navitems[i];
+			nav.addEventListener('click', function(e) {
+				checkbox.checked = false;
+			}, false);
+		}*/
 
         document.addEventListener('click', function(e) {
           var target = e.target;
