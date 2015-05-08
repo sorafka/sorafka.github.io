@@ -4,7 +4,7 @@
  <title>sorafka.github.io</title>
  <link href="http://sorafka.github.io/atom.xml" rel="self"/>
  <link href="http://sorafka.github.io/"/>
- <updated>2015-05-07T17:37:33+09:00</updated>
+ <updated>2015-05-08T10:11:14+09:00</updated>
  <id>http://sorafka.github.io</id>
  <author>
    <name>sorafka</name>
@@ -13,11 +13,15 @@
 
  
  <entry>
-   <title>Welcome</title>
+   <title></title>
    <link href="http://sorafka.github.io/posts/2015/01/01/introduction/"/>
    <updated>2015-01-01T09:00:00+09:00</updated>
    <id>http://sorafka.github.io/posts/2015/01/01/introduction</id>
-   <content type="html">
+   <content type="html">&lt;h2 id=&quot;information&quot;&gt;Information&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;[2015.04] M3-2015春に&lt;a href=&quot;http://switchbreak.org&quot;&gt;switchbreak&lt;/a&gt;として参加します&lt;/li&gt;
+&lt;/ul&gt;
+
 </content>
  </entry>
  
